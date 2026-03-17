@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(213, 250, 213);
+}
+
+.cars-cards{
+  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap: 10px;
+  background-color: rgb(123, 231, 123);
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+h1{
+  color: white;
+  background-color: darkgreen;
+  font-size: 50px;
+  padding: 10px;
+  padding-right: 25px;
+  border-radius: 15px;
+  text-align: end;
+}
+
+.game{
+  margin-top: 100px;
+}
+
+.score-header{
+  color: gold;
+  background-color: darkgreen;
+  padding: 10px;
+  padding-left: 25px;
+  border-radius: 15px;
+}
